@@ -13,11 +13,11 @@
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.5.1/g' package/base-files/files/bin/config_generate
 # 删除老argon
-rm -rf package/lean/luci-theme-argon
+#rm -rf package/lean/luci-theme-argon
 # 拉取argon主题
 #git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 
-git clone  https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+#git clone  https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 
 
 # 拉取微信推送、京东签到插件
